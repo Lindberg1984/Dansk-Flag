@@ -1,0 +1,25 @@
+body {
+  padding: 20px;
+}
+
+.flex__container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.box_item {
+  background-color: #FF0000;
+  height: 200px;
+  margin: 18px;
+  width: 270px;
+}
+
+.box_object {
+  background-color: #FF0000;
+  flex-grow: 1;
+  height: 200px;
+  margin: 18px;
+  width: 60px;
+}
